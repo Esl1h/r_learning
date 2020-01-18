@@ -445,3 +445,42 @@ Student_List = data.frame(Student_ID = 101:105,
                           Department = c("IT","EX","EX","CS","IT")
 )
 
+print(Student_List)
+
+
+########################
+
+# LIST
+
+# Lists are something in which we can store Values, Vectors, Matrices and a Data Frame all together in a single file.
+# Inside the function, we can add any number of Vectors, Matrices or Data Frames as well as being able to declare single Variables.
+# List_Name = list(vectorName1, MatrixName1, DataFrameName1, vectorName2,...)
+
+list()
+
+# Data Frame
+Student_List = data.frame(Student_ID = 101:105,
+                          Student_Name = c("Mike","Henry","Tom","Harvey","Rachel"),
+                          Age = c(21,22,21,20,22),
+                          Department = c("IT","EX","EX","CS","IT"))
+# Vector
+V<- 1:4;
+
+# Matrix
+M <- matrix(1:16,4,4)
+
+# variable
+Num <- 4
+
+# A List with all!
+OurFirstList = list(V, M, Num, Student_List)
+
+# PRINT the 4 items from a list:
+print(OurFirstList)
+
+
+
+
+
+
+
