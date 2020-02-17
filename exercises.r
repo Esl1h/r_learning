@@ -477,10 +477,3 @@ OurFirstList = list(V, M, Num, Student_List)
 
 # PRINT the 4 items from a list:
 print(OurFirstList)
-
-
-
-
-
-
-
