@@ -73,12 +73,12 @@ No console do R:
 
 O txtplot é uma biblioteca que gera gráficos ASCII, incluindo gráficos de dispersão, plotagem de linhas, plotagem de densidade, acf e gráficos de barras.
 
-Dedpois de instalado, podemos carrega-lo:
+Depois de instalado, podemos carrega-lo:
 > library('txtplot')
 
 
 E gerar um exemplo:
-> txtplot(cars[,1], carros[,2], xlab = "velocidade", ylab = "distancia")
+> txtplot(cars[,1], cars[,2], xlab = "velocidade", ylab = "distancia")
 
 Outro pacote para primeiros codigos com R:
 > install.packages("stringr")
